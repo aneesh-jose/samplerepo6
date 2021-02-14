@@ -1,7 +1,8 @@
 module.exports = {
 	devServer: {
 		allowedHosts: [
-			".bagelstudio.co"
+			".bagelstudio.co",
+			".bageldb.com"
 		]
 	}
 }
