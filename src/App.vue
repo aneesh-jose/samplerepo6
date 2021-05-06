@@ -8,10 +8,6 @@
   </div>
 </template>
 
-<style>
-@import "./main.css";
-</style>
-
 <style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -33,4 +29,8 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+</style>
+
+<style>
+@import "./main.css";
 </style>
