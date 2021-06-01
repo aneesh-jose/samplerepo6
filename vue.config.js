@@ -1,7 +1,7 @@
 module.exports = {
 	devServer: {
 		watchOptions: {
-			poll: 500
+			poll: 50
 		},
 		allowedHosts: [
 			".bagelstudio.co",
