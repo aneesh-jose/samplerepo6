@@ -1,12 +1,14 @@
 module.exports = {
-	devServer: {
-		watchOptions: {
-			aggregateTimeout: 100,
-			poll: 500
-		},
-		allowedHosts: [
-			".bagelstudio.co",
-			".bageldb.com"
-		]
+	configureWebpack: {
+		devServer: {
+			watchOptions: {
+				aggregateTimeout: 100,
+				poll: 100
+			},
+			allowedHosts: [
+				".bagelstudio.co",
+				".bageldb.com"
+			]
+		}
 	}
 }
