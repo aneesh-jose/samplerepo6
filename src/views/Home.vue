@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welco to Your Bagel Studio Starter"/>
+    <HelloWorld msg="Welcome to Your Bagel Studio Starter"/>
   </div>
 </template>
 
